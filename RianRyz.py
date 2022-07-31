@@ -20,7 +20,7 @@ def skip_mission(token, rec):
 			js = json.loads(response)
 			logs = js['data']['Logs']
 			cash = logs[len(logs)-1]['Message'].split()[5]
-			print(f'-See Me- Script By: Rian Febriansyah|Ryz Clone Acc|Your Money -> {cash}')
+			print(f'Script By: Rian Febriansyah|Ryz Clone Acc|Your Money -> {cash}')
 		except Exception as e:
 			pass
 			
